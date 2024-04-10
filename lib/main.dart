@@ -9,6 +9,7 @@ void main() {
   runApp(const MyApp());
 }
 
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
             title: 'Bora-bora',
             theme: ThemeData(
               colorScheme:
-                  ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 0, 0, 0)),
+                  ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 1, 0, 0)),
               useMaterial3: true,
             ),
             // home: UserList(),
